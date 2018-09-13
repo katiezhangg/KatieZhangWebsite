@@ -1,0 +1,23 @@
+img {
+    width: 12vw;
+    height: 10vw;
+}
+
+#nav-bar {
+    width: 15vw;
+    height: 10vw;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+li:hover {
+    color: orangered;
+}
+
+
+
