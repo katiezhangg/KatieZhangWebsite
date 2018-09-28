@@ -1,22 +1,44 @@
+.main-container {
+    margin: 0;
+}
+
+/* LAPTOP SIZE */
+
 img {
     width: 12vw;
     height: 10vw;
 }
 
 #nav-bar {
-    width: 15vw;
+    width: 10vw;
     height: 10vw;
+    display: inline-block;
+    text-align: right;
 }
 
 ul {
     list-style-type: none;
     font-family: 'Nunito Sans', sans-serif; 
     font-size: 1.5vw;
-    font-weight: 800;
+    font-weight: 300;
 }
 
 li:hover {
-    color: orangered;
+    color: orange;
+}
+
+#splitConscious {
+    width: 40vw;
+    height: 40vw;
+    float: right;
+    margin-left: 15vw;
+
+}
+
+figcaption {
+    font-size: 1vw;
+    font-style: italic;
+    margin-top:38.8vw;
 }
 
 
