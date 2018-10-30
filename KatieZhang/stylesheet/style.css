@@ -16,6 +16,18 @@ img {
     margin-top: 2vw;
 }
 
+.nav-hover-one:hover {
+    transform: rotate(5deg);
+
+}
+
+.nav-hover-two:hover {
+    transform: rotate(-5deg);
+
+}
+
+
+
 ul {
     list-style-type: none;
     font-family: 'Nunito Sans', sans-serif; 
@@ -56,6 +68,8 @@ figcaption {
     margin-bottom: 3px;
     margin-left: 2vw;
 }
+
+
 
 #imgHome {
     width: 6.2vw;
