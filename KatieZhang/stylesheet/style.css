@@ -1,93 +1,47 @@
-.main-container {
-    margin: 0;
+/* FONT FACE */
+
+@font-face {
+    font-family: "Helvetica-Medium";
+    src: url(../fonts/HelveticaNeueMedium.ttf)
 }
 
-/* LAPTOP SIZE */
-
-img {
-    width: 12vw;
-    height: 10vw;
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url(../fonts/HelveticaNeueLight.ttf)
 }
 
-#nav-bar {
-    width: 20vw;
-    height: 30vw;
-    display: inline-block;
-    margin-top: 2vw;
+@font-face {
+    font-family: "Helvetica-Italic";
+    src: url(../fonts/HelveticaNeueItalic.ttf)
 }
 
-.nav-hover-one:hover {
-    transform: rotate(5deg);
-
+@font-face {
+    font-family: "Helvetica-Light-Italic";
+    src: url(../fonts/HelveticaNeueLightItalic.ttf)
 }
 
-.nav-hover-two:hover {
-    transform: rotate(-5deg);
-
+@font-face {
+    font-family: "Helvetica-Bold-Italic";
+    src: url(../fonts/HelveticaNeueBoldItalic.ttf)
 }
 
+/* NAVBAR STUFF */
 
-
-ul {
-    list-style-type: none;
-    font-family: 'Nunito Sans', sans-serif; 
-    font-size: 1.5vw;
-    font-weight: 300;
+.my-navbar {
+    background-color: #F9FFD0;
 }
 
-li:hover {
-    color: orange;
-}
-
-#splitConscious {
-    width: 40vw;
-    height: 40vw;
-    float: right;
-    margin-left: 13vw;
+a.navbar-item {
+    color: black;
+    font-family: 'Helvetica-Light';
 
 }
 
-figcaption {
-    font-size: 1vw;
-    font-style: italic;
-    margin-top:38.8vw;
+body {
+    background-color: #F0FFEC;
+    
 }
 
-#h1Portfolio {
-    font-family:'Nunito Sans';
-}
-
-.nav-portfolio {
-    background-image: url(img/portfolio.png);
-
-}
-
-.nav-item {
-    width: 80%;
-    height: 15%;
-    margin-bottom: 3px;
-    margin-left: 2vw;
-}
-
-
-
-#imgHome {
-    width: 6.2vw;
-    height: 3.2vw;
-}
-
-img#imgPortfolio {
-    width: 10vw;
-    height: 3.5vw;
-}
-
-#imgAbout {
-    width: 7vw;
-    height: 3.2vw;
-
-}
-
-#imgContact {
-    width: 9vw;
-    height: 3.2vw;
+h1 {
+    font-family: 
 }
