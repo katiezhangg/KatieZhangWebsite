@@ -43,5 +43,14 @@ body {
 }
 
 h1 {
-    font-family: 
+    font-family: 'EB Garamond';
+    text-align: center;
+}
+
+#homeImg {
+    width: 80%;
+}
+
+.text-align {
+    text-align: center;
 }
