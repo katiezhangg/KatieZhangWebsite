@@ -1,3 +1,4 @@
+
 /* FONT FACE */
 
 @font-face {
@@ -28,7 +29,7 @@
 /* NAVBAR STUFF */
 
 .my-navbar {
-    background-color: #F9FFD0;
+    background-color:whitesmoke;
 }
 
 a.navbar-item {
@@ -37,9 +38,18 @@ a.navbar-item {
 
 }
 
+.navbar-item:hover {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     background-color: #F0FFEC;
     
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -53,4 +63,111 @@ h1 {
 
 .text-align {
     text-align: center;
+}
+
+/* ABOUT PAGE */
+
+#aboutImg {
+    width: 80%;
+}
+
+p.aboutparagraph {
+    font-family: 'Helvetica-Light';
+    text-align: left;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+/* PORTFOLIO */
+
+#portfolioStudio {
+    width: 50vw;
+    height: 45vw;
+    border: 1px solid lightgrey;
+    background-color: white;
+    opacity: .7;
+    display: inline-block;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#portfolioStudio:hover {
+    opacity: .5;
+}
+
+.portfolio-studio-text {
+    font-family: 'Helvetica-Light-Italic';
+    color: black;
+    padding-top: 30%;
+    font-size: 1.5rem;
+}
+
+#portfolioGraphic {
+    width: 50vw;
+    height: 45vw;
+    border: 1px solid lightgrey;
+    background-color: white;
+    opacity: .7;
+    display: inline-block;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#portfolioGraphic:hover {
+    opacity: .5;
+}
+
+.portfolio-graphic-text {
+    font-family: 'Helvetica-Light-Italic';
+    color: black;
+    padding-top: 30%;
+    font-size: 1.5rem;
+}
+
+#portfolioWeb {
+    width: 50vw;
+    height: 45vw;
+    border: 1px solid lightgrey;
+    background-color: white;
+    opacity: .7;
+    display: inline-block;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#portfolioWeb:hover {
+    opacity: .5;
+}
+
+
+.portfolio-web-text {
+    font-family: 'Helvetica-Light-Italic';
+    color: black;
+    padding-top: 30%;
+    font-size: 1.5rem;
+}
+
+/* STUDIO */
+
+.studio-preview {
+    width: 50vw;
+    height: 45vw;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+.low-battery {
+    background-image: url(../img/low-battery-copy.jpg);
+    background-size: cover;
+}
+
+.split-conscious {
+    background-image: url(../img/split-conscious.jpg);
+    background-size: cover;
+}
+
+.blueface-newface {
+    background-image: url(../img/blueface-newface-top.jpg);
+    background-size: cover;
+    margin-bottom: 20%;
 }
