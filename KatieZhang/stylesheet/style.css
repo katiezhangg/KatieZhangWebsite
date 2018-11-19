@@ -156,18 +156,29 @@ p.aboutparagraph {
     display: inline-block;
 }
 
+.mac-miller {
+    background-image: url(../img/mac-miller-copy.jpg);
+    background-size: cover;
+}
+
+.split-conscious {
+    background-image: url(../img/split-conscious-copy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.blueface-newface {
+    background-image: url(../img/blueface-newface-top-copy.jpg);
+    background-size: cover;
+}
+
 .low-battery {
     background-image: url(../img/low-battery-copy.jpg);
     background-size: cover;
 }
 
-.split-conscious {
-    background-image: url(../img/split-conscious.jpg);
-    background-size: cover;
-}
-
-.blueface-newface {
-    background-image: url(../img/blueface-newface-top.jpg);
+.earl {
+    background-image: url(../img/earl-copy.jpg);
     background-size: cover;
     margin-bottom: 20%;
 }
