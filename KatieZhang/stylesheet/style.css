@@ -28,10 +28,6 @@
 
 /* NAVBAR STUFF */
 
-.my-navbar {
-    background-color:whitesmoke;
-}
-
 a.navbar-item {
     color: black;
     font-family: 'Helvetica-Light';
@@ -55,6 +51,16 @@ a {
 h1 {
     font-family: 'EB Garamond';
     text-align: center;
+}
+
+h4 {
+    font-family: 'EB Garamond';
+    text-align: center;
+}
+
+#lowBattery {
+    font-style: italic;
+    font-size: 20px;
 }
 
 #homeImg {
@@ -139,7 +145,6 @@ p.aboutparagraph {
     opacity: .5;
 }
 
-
 .portfolio-web-text {
     font-family: 'Helvetica-Light-Italic';
     color: black;
@@ -181,4 +186,69 @@ p.aboutparagraph {
     background-image: url(../img/earl-copy.jpg);
     background-size: cover;
     margin-bottom: 20%;
+}
+
+/* GRAPHIC */
+
+.graphic-preview {
+    width: 50vw;
+    height: 45vw;
+    margin-top: 10%;
+    display: inline-block;
+    background-color: white;
+}
+
+
+
+.lil-louis {
+    background-image: url(../img/lil-louis.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.euclidean {
+    background-image: url(../img/euclidean-poster.png);
+    background-size: cover;
+
+}
+
+.middleman {
+    background-image: url(../img/MiddleMan.jpg);
+    background-size: cover;
+}
+
+.lucid-journey {
+    background-image: url(../img/lucid-journey.png);
+    background-size: cover;
+}
+
+.upper-lower {
+    background-image: url(../img/u&lc-cover-smaller.png);
+    background-size: cover;
+}
+
+
+/*  WEB  */
+
+.web-preview {
+    width: 50vw;
+    height: 45vw;
+    margin-top: 10%;
+    display: inline-block;
+
+}
+
+.book-bandy {
+    background-image: url(../img/book-bandy.png);
+    background-size: cover;
+}
+
+.sustainable-me {
+    background-image: url(../img/sustainable-me-preview.jpg);
+    background-size: cover;
+}
+
+.earthquake {
+    background-image: url(../img/earthquake-preview.png);
+    background-size: cover;
 }
