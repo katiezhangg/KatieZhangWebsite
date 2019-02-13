@@ -188,6 +188,11 @@ p.aboutparagraph {
     margin-bottom: 20%;
 }
 
+.mac-portrait {
+    background-image: url(../img/mac-portrait.JPG);
+    background-size: cover;
+}
+
 /* GRAPHIC */
 
 .graphic-preview {
