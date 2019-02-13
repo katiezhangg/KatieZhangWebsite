@@ -225,6 +225,7 @@ p.aboutparagraph {
 .lucid-journey {
     background-image: url(../img/lucid-journey.png);
     background-size: cover;
+    margin-bottom: 20%;
 }
 
 .upper-lower {
@@ -256,4 +257,5 @@ p.aboutparagraph {
 .earthquake {
     background-image: url(../img/earthquake-preview.png);
     background-size: cover;
+    margin-bottom: 20%;
 }
