@@ -48,6 +48,8 @@ a.navbar-item {
     text-decoration: none;
 }
 
+/* HOME  */
+
 body {
     background-color: #F0FFEC;
     
@@ -69,7 +71,7 @@ h4 {
 
 #lowBattery {
     font-style: italic;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #homeImg {
@@ -79,6 +81,14 @@ h4 {
 .text-align {
     text-align: center;
 }
+
+.paragraph-home {
+    max-width: 300px;
+    font-family: "Helvetica-Bold";
+    font-size: 15px;
+}
+
+
 
 /* ABOUT PAGE */
 
@@ -271,75 +281,13 @@ p.aboutparagraph {
 
 /* CONTACT PAGE */
 
-button.btn-contact {
-    color:$primary;
-    text-decoration:none;
-    -webkit-transition:0.3s all ease;
-    transition:0.3s ease all;
-    &:hover {
-      color:#FFF;
-    }
-    &:focus {
-      color:#FFF;
-    }
-  }
-
-.btn-contact {
-    border-radius: 0;
-    padding-left: 60px;
-    padding-right: 60px;
-    background: none;
-    border: 2px solid $primary;
-    text-align: center;
-    font-family: "Helvetica-Medium";
-    cursor: pointer;
-    color: black;
-    border-radius: 2px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
-    animation: hoverIt 1s;
-
+#contactForm {
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
 
 /* animation */
-
-
-@keyframes hoverIt {
-    0% {
-        width: 0px;
-        height: 0px;
-    }
-
-    25% {
-        width: 300px;
-        height: 300px;
-        left: 50%;
-        top: 50%;
-    }
-    
-    50% {
-        width: 0px;
-        height: 0px;
-        left: 100%;
-        top: 100%;
-    }
-    
-    75% {
-        width: 300px;
-        height: 300px;
-        left: 50%;
-        top: 50%;
-    }
-
-     100% {
-        width: 0px;
-        height: 0px;
-        left: 0;
-        top: 0;
-    
-    }
-
-    
-}
 
 #contactForm {
     vertical-align: middle;
@@ -355,3 +303,116 @@ button.btn-contact {
     font-size: 15px;
     margin-top: 50px;
 }
+
+/* MEDIA BREAKPOINTS */
+
+@media (max-width: 575.98px) {
+
+    #homeTextDisplay {
+        display: none;
+    }
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    #homeTextDisplay {
+        display: none;
+    }
+
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    #homeImg {
+        width: 75%;
+    }
+
+    h4#lowBattery {
+        display: none;
+    }
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* Home Page */
+
+    #homeImg {
+        width: 75%;
+    }
+
+    .section-md {
+        margin-left: 200px;
+        text-align: left;
+    }
+    
+    h4#lowBattery {
+        display: none;
+    }
+
+
+    /* Portfolio Page */
+
+    #portfolioStudio {
+        width: 130px;
+        height: 400px;
+    }
+
+    .portfolio-studio-text {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    }
+
+    #portfolioGraphic {
+        width: 130px;
+        height: 400px;
+    }
+
+    .portfolio-graphic-text {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    }
+
+    #portfolioWeb {
+        width: 130px;
+        height: 400px;
+    }
+
+    .portfolio-web-text {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    }
+     
+
+    /* Studio Page */
+
+    .studio-preview {
+        width: 230px;
+        height: 200px;
+    }
+
+    /* Contact Form */
+
+    #contactForm {
+        margin-top: 40px;
+        padding-right: 30%;
+        padding-left: 30%;
+    }
+
+ }
+
+@media (min-width: 1200px) { 
+
+    #homeImg {
+        width: 60%;
+    }
+
+    h4#lowBattery {
+        display:none;
+    }
+
+
+
+ }
