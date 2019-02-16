@@ -75,7 +75,7 @@ h4 {
 }
 
 #homeImg {
-    width: 80%;
+    width: 78%;
 }
 
 .text-align {
@@ -302,6 +302,26 @@ p.aboutparagraph {
     font-family: "Helvetica-Bold-Italic";
     font-size: 15px;
     margin-top: 50px;
+}
+
+/* ARTWORK */
+
+.back-button {
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#macPortrait {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.artwork-title {
+    font-family: 'EB Garamond';
+    text-align: center;
+    font-size: 25px;
 }
 
 /* MEDIA BREAKPOINTS */
