@@ -306,6 +306,10 @@ p.aboutparagraph {
 
 /* ARTWORK */
 
+.text-justify {
+    text-align: justify;
+}
+
 .back-button {
     width: 40px;
     margin-top: 10px;
@@ -322,6 +326,25 @@ p.aboutparagraph {
     font-family: 'EB Garamond';
     text-align: center;
     font-size: 25px;
+}
+
+#macFull {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#splitConscious {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#blueFace {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 /* MEDIA BREAKPOINTS */
