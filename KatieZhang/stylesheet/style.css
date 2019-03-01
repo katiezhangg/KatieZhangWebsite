@@ -72,6 +72,7 @@ h4 {
 #lowBattery {
     font-style: italic;
     font-size: 15px;
+    vertical-align: middle;
 }
 
 #homeImg {
@@ -80,12 +81,6 @@ h4 {
 
 .text-align {
     text-align: center;
-}
-
-.paragraph-home {
-    max-width: 300px;
-    font-family: "Helvetica-Bold";
-    font-size: 15px;
 }
 
 
@@ -349,11 +344,19 @@ p.aboutparagraph {
 
 /* MEDIA BREAKPOINTS */
 
+/* PHONES */
+
 @media (max-width: 575.98px) {
 
     #homeTextDisplay {
         display: none;
     }
+
+    .navbar-lg {
+        display: none;
+    }
+
+
 
  }
 
@@ -363,7 +366,13 @@ p.aboutparagraph {
         display: none;
     }
 
+    .navbar-lg {
+        display: none;
+    }
+
  }
+ 
+ /* IPAD / TABLET */
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
@@ -375,8 +384,13 @@ p.aboutparagraph {
         display: none;
     }
 
+    .navbar-lg {
+        display: none;
+    }
+
  }
 
+/* LAPTOP */
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
@@ -384,6 +398,7 @@ p.aboutparagraph {
 
     #homeImg {
         width: 75%;
+       
     }
 
     .section-md {
@@ -393,6 +408,20 @@ p.aboutparagraph {
     
     h4#lowBattery {
         display: none;
+    }
+
+    .fixed-bottom {
+        position: relative;
+    }
+
+    /* NAVBAR */
+
+    .navbar-sm-md {
+        display: none;
+    }
+
+    .navbar-lg {
+        display: inline-block;
     }
 
 
@@ -446,16 +475,31 @@ p.aboutparagraph {
 
  }
 
+ /* DESKTOP */
+
 @media (min-width: 1200px) { 
 
     #homeImg {
-        width: 60%;
+        width: 30%;
     }
 
     h4#lowBattery {
         display:none;
     }
 
+    /* NAVBAR */
 
+    .navbar-sm-md {
+        display: none;
+    }
+
+    .navbar-lg {
+        display: inline-block;
+    }
+
+    .nav-link-large {
+        display: inline-block;
+    }
+    
 
  }
