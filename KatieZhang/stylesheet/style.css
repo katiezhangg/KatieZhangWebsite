@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+li {
+    list-style-type: none;
+}
+
 
 /* FONT FACE */
 
@@ -48,6 +52,14 @@ a.navbar-item {
     text-decoration: none;
 }
 
+.nav-desktop {
+    color: black;
+}
+
+.align-right {
+    text-align: right;
+}
+
 /* HOME  */
 
 body {
@@ -67,6 +79,9 @@ h1 {
 h4 {
     font-family: 'EB Garamond';
     text-align: center;
+}
+#imgSection {
+    display: inline-block;
 }
 
 #lowBattery {
@@ -274,14 +289,6 @@ p.aboutparagraph {
     margin-bottom: 20%;
 }
 
-/* CONTACT PAGE */
-
-#contactForm {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-
 /* animation */
 
 #contactForm {
@@ -422,7 +429,13 @@ p.aboutparagraph {
 
     .navbar-lg {
         display: inline-block;
+     
     }
+
+    .align-right {
+        padding-bottom: 20px;
+    }
+
 
 
     /* Portfolio Page */
@@ -465,14 +478,6 @@ p.aboutparagraph {
         height: 200px;
     }
 
-    /* Contact Form */
-
-    #contactForm {
-        margin-top: 40px;
-        padding-right: 30%;
-        padding-left: 30%;
-    }
-
  }
 
  /* DESKTOP */
@@ -495,11 +500,18 @@ p.aboutparagraph {
 
     .navbar-lg {
         display: inline-block;
+        padding-right: 50px;
     }
 
-    .nav-link-large {
-        display: inline-block;
+    .align-right {
+        padding-bottom: 20px;
     }
+
+    .nav-desktop {
+        font-family: "Helvetica-medium";
+    }
+
+    
     
 
  }
