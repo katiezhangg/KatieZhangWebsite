@@ -7,8 +7,34 @@
   box-sizing: border-box;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 li {
     list-style-type: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'EB Garamond';
+    text-align: center;
+}
+
+h4 {
+    font-family: 'EB Garamond';
+    text-align: center;
 }
 
 
@@ -48,12 +74,17 @@ a.navbar-item {
 }
 
 .navbar-item:hover {
-    color: white;
-    text-decoration: none;
+    color: #ffc43e;
 }
 
 .nav-desktop {
     color: black;
+    font-family: 'Helvetica-Light';
+
+}
+
+.nav-desktop:hover {
+    color: #ffc43e;
 }
 
 .align-right {
@@ -63,23 +94,9 @@ a.navbar-item {
 /* HOME  */
 
 body {
-    background-color: #F0FFEC;
-    
+    background-color: #F0FFEC; 
 }
 
-a {
-    text-decoration: none;
-}
-
-h1 {
-    font-family: 'EB Garamond';
-    text-align: center;
-}
-
-h4 {
-    font-family: 'EB Garamond';
-    text-align: center;
-}
 #imgSection {
     display: inline-block;
 }
@@ -98,7 +115,15 @@ h4 {
     text-align: center;
 }
 
+.text-align-small {
+    text-align: center;
+}
 
+#copyrightTag {
+    font-family: 'EB Garamond';
+    font-size: .8rem;
+    text-align: center;
+}
 
 /* ABOUT PAGE */
 
@@ -111,6 +136,7 @@ p.aboutparagraph {
     text-align: left;
     padding-left: 12%;
     padding-right: 12%;
+    margin-bottom: 20%;
 }
 
 /* PORTFOLIO */
@@ -181,6 +207,8 @@ p.aboutparagraph {
     font-size: 1.5rem;
 }
 
+
+
 /* STUDIO */
 
 .studio-preview {
@@ -231,8 +259,6 @@ p.aboutparagraph {
     display: inline-block;
     background-color: white;
 }
-
-
 
 .lil-louis {
     background-image: url(../img/lil-louis.jpg);
@@ -289,18 +315,6 @@ p.aboutparagraph {
     margin-bottom: 20%;
 }
 
-/* animation * /
-
-.label-text {
-    font-family: "Helvetica-Medium";
-}
-
-#thankYou {
-    font-family: "Helvetica-Bold-Italic";
-    font-size: 15px;
-    margin-top: 50px;
-}
-
 /* ARTWORK */
 
 .text-justify {
@@ -344,6 +358,25 @@ p.aboutparagraph {
 
 }
 
+#lowBattery {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#earl {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.paragraph-margin-bottom {
+    margin-bottom: 20%;
+}
+
 /* MEDIA BREAKPOINTS */
 
 /* PHONES */
@@ -355,6 +388,10 @@ p.aboutparagraph {
     }
 
     .navbar-lg {
+        display: none;
+    }
+
+    #copyrightTag {
         display: none;
     }
 
@@ -371,6 +408,11 @@ p.aboutparagraph {
     .navbar-lg {
         display: none;
     }
+
+    #copyrightTag {
+        display: none;
+    }
+
 
  }
  
@@ -399,88 +441,16 @@ p.aboutparagraph {
     /* Home Page */
 
     #homeImg {
-        width: 75%;
-       
-    }
-
-    .section-md {
-        margin-left: 200px;
-        text-align: left;
-    }
-    
-    h4#lowBattery {
-        display: none;
-    }
-
-    .fixed-bottom {
-        position: relative;
-    }
-
-    /* NAVBAR */
-
-    .navbar-sm-md {
-        display: none;
-    }
-
-    .navbar-lg {
-        display: inline-block;
-     
-    }
-
-    .align-right {
-        padding-bottom: 20px;
-    }
-
-
-
-    /* Portfolio Page */
-
-    #portfolioStudio {
-        width: 130px;
-        height: 400px;
-    }
-
-    .portfolio-studio-text {
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-    }
-
-    #portfolioGraphic {
-        width: 130px;
-        height: 400px;
-    }
-
-    .portfolio-graphic-text {
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-    }
-
-    #portfolioWeb {
-        width: 130px;
-        height: 400px;
-    }
-
-    .portfolio-web-text {
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-    }
-     
-
-    /* Studio Page */
-
-    .studio-preview {
-        width: 230px;
-        height: 200px;
-    }
-
- }
-
- /* DESKTOP */
-
-@media (min-width: 1200px) { 
-
-    #homeImg {
         width: 30%;
+    }
+
+    #imgSection {
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+
+    .text-align {
+        text-align: left;
     }
 
     h4#lowBattery {
@@ -493,6 +463,10 @@ p.aboutparagraph {
         display: none;
     }
 
+    #navDesktop {
+        margin-top: 40px;
+    }
+
     .navbar-lg {
         display: inline-block;
         padding-right: 50px;
@@ -502,11 +476,81 @@ p.aboutparagraph {
         padding-bottom: 20px;
     }
 
-    .nav-desktop {
-        font-family: "Helvetica-medium";
+    /* Portfolio Page */
+
+
+
+ }
+
+ /* DESKTOP */
+
+@media (min-width: 1200px) { 
+
+    #homeImg {
+        width: 30%;
     }
 
-    
-    
+    #imgSection {
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+
+    .text-align {
+        text-align: left;
+    }
+
+    h4#lowBattery {
+        display:none;
+    }
+
+    /* NAVBAR */
+
+    .navbar-sm-md {
+        display: none;
+    }
+
+    #navDesktop {
+        margin-top: 40px;
+    }
+
+    .navbar-lg {
+        display: inline-block;
+        padding-right: 50px;
+    }
+
+    .align-right {
+        padding-bottom: 20px;
+    }
+
+     /* Portfolio Page */
+
+     #portfolioStudio {
+         width: 150px;
+         height: 150px;
+
+     }
+
+     #portfolioGraphic {
+        width: 150px;
+        height: 150px;
+    }
+
+    #portfolioWeb {
+        width: 150px;
+        height: 150px;
+    }
+
+    .text-align-large {
+        text-align: center !important;
+    }
+
+    .portfolio-margin-large {
+        margin-left: 45px;
+    }
+
+    .mt-large {
+        margin-top: 30px;
+    }
+
 
  }

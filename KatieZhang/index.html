@@ -33,13 +33,15 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 lowbattery-div">
-          <div id="imgSection" class="text-align pt-4 section-md">
-              <nav class="navbar-lg">
-                  <li class="align-right"><a class="nav-desktop" href="index.html">home</a></li>
-                  <li class="align-right"><a class="nav-desktop" href="pages/portfolio.html">portfolio</a></li>
-                  <li class="align-right"><a class="nav-desktop" href="pages/about.html">about me</a></li>
-                </nav>
+        <div id="navDesktop" class="col-md-4">
+            <nav class="navbar-lg">
+                <li class="align-right"><a class="nav-desktop" href="index.html">home</a></li>
+                <li class="align-right"><a class="nav-desktop" href="pages/portfolio.html">portfolio</a></li>
+                <li class="align-right"><a class="nav-desktop" href="pages/about.html">about</a></li>
+            </nav>
+        </div>
+        <div class="col-sm-12 col-md-8 lowbattery-div">
+          <div id="imgSection" class="pt-4 text-align section-md">
             <a data-fancybox="gallery" href="img/low-battery-copy.jpg"><img id="homeImg" src="img/low-battery-copy.jpg"></a>
           </div>
           <h4 id="lowBattery" class="mt-2">low battery</h4>
@@ -60,7 +62,9 @@
         </div>
       </div>
     </div>
-  
+
+    <p id="copyrightTag" class="fixed-bottom">© Copyright Katherine Zhang 2019</p>
+
   </main>
 
   
