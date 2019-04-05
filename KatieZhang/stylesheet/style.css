@@ -288,6 +288,11 @@ p.aboutparagraph {
     background-size: cover;
 }
 
+.sustainability {
+    background-image: url(../img/sustainability-center.jpg);
+    background-size: cover;
+}
+
 
 /*  WEB  */
 
@@ -479,6 +484,45 @@ p.aboutparagraph {
     /* Portfolio Page */
 
 
+    #portfolioStudio {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    #portfolioGraphic {
+       width: 150px;
+       height: 150px;
+   }
+
+   #portfolioWeb {
+       width: 150px;
+       height: 150px;
+   }
+
+   .text-align-large {
+       text-align: center !important;
+   }
+
+   .portfolio-margin-large {
+       margin-left: 45px;
+   }
+
+   .mt-large {
+       margin-top: 25px;
+   }
+
+   /* Studio Page */
+
+   .studio-large {
+        width: 150px;
+        height: 150px;
+   }
+
+    .studio-margin-large {
+        margin-left: 45px;
+   }
+
 
  }
 
@@ -549,8 +593,39 @@ p.aboutparagraph {
     }
 
     .mt-large {
-        margin-top: 30px;
+        margin-top: 25px;
     }
+
+    /* Studio Page */
+
+    .studio-large {
+        width: 150px;
+        height: 150px;
+    }
+
+    .studio-margin-large {
+        margin-left: 45px;
+    }
+
+    .spaceTaker {
+        width: 121px;
+        height: 100px;
+    }
+
+    /* Graphic Page */
+
+    .graphic-large {
+        width: 150px;
+        height: 150px;
+    }
+
+    .graphic-margin-large {
+        margin-left: 45px;
+    }
+
+
+
+
 
 
  }
