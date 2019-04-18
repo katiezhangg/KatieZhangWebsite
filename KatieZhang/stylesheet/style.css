@@ -422,6 +422,18 @@ p.aboutparagraph {
     margin-left: auto;
 }
 
+#upperLower {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#lucidJourney {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
 .next-btn {
     float: right;
     padding: 20px;
@@ -763,6 +775,21 @@ p.aboutparagraph {
     #earl {
         width: 60%;
     }
-    
+
+    #euclideanPoster {
+        width: 60%;
+    }
+
+    #middleman {
+        width: 80%;
+    }
+
+    #upperLower {
+        width: 70%;
+    }
+
+    .margin-artwork-pages {
+        margin-top: 80px;
+    }
 
  }
