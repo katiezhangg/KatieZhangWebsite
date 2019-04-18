@@ -740,12 +740,28 @@ p.aboutparagraph {
     
     }
 
+    .next-large {
+        font-size: 1rem;
+    }
+
     #macFull{
-        width: 60%;
+        width: 65%;
     }
 
     #splitConscious {
         width: 80%;
+    }
+
+    #blueFace {
+        width: 70%;
+    }
+    
+    #lowBattery {
+        width: 60%;
+    }
+
+    #earl {
+        width: 60%;
     }
     
 
