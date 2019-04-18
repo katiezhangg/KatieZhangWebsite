@@ -33,7 +33,6 @@ h1 {
 }
 
 h4 {
-    font-family: 'EB Garamond';
     text-align: center;
 }
 
@@ -65,11 +64,26 @@ h4 {
     src: url(../fonts/HelveticaNeueBoldItalic.ttf)
 }
 
+@font-face {
+    font-family: "Avenir-Black";
+    src: url(../fonts/AvenirBlack.otf);
+}
+
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../fonts/AvenirBook.otf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../fonts/AvenirRoman.otf);
+}
+
 /* NAVBAR STUFF */
 
 a.navbar-item {
     color: black;
-    font-family: 'Helvetica-Light';
+    font-family: 'Avenir-Book';
 
 }
 
@@ -79,7 +93,7 @@ a.navbar-item {
 
 .nav-desktop {
     color: black;
-    font-family: 'Helvetica-Light';
+    font-family: 'Avenir-Book';
 
 }
 
@@ -102,9 +116,9 @@ body {
 }
 
 #lowBattery {
-    font-style: italic;
     font-size: 15px;
     vertical-align: middle;
+    font-family: "Avenir-Book";
 }
 
 #homeImg {
@@ -132,7 +146,7 @@ body {
 }
 
 p.aboutparagraph {
-    font-family: 'Helvetica-Light';
+    font-family: 'Avenir-Book';
     text-align: left;
     padding-left: 12%;
     padding-right: 12%;
@@ -157,7 +171,7 @@ p.aboutparagraph {
 }
 
 .portfolio-studio-text {
-    font-family: 'Helvetica-Light-Italic';
+    font-family: 'Avenir-Book';
     color: black;
     padding-top: 30%;
     font-size: 1.5rem;
@@ -179,7 +193,7 @@ p.aboutparagraph {
 }
 
 .portfolio-graphic-text {
-    font-family: 'Helvetica-Light-Italic';
+    font-family: 'Avenir-Book';
     color: black;
     padding-top: 30%;
     font-size: 1.5rem;
@@ -201,12 +215,20 @@ p.aboutparagraph {
 }
 
 .portfolio-web-text {
-    font-family: 'Helvetica-Light-Italic';
+    font-family: 'Avenir-Book';
     color: black;
     padding-top: 30%;
     font-size: 1.5rem;
 }
 
+
+.paragraph-text {
+    font-family: "Avenir-Book";
+}
+
+.paragraph-margin-bottom {
+    margin-bottom: 100px;
+}
 
 
 /* STUDIO */
@@ -269,7 +291,6 @@ p.aboutparagraph {
 .euclidean {
     background-image: url(../img/euclidean-poster.png);
     background-size: cover;
-
 }
 
 .middleman {
@@ -327,9 +348,10 @@ p.aboutparagraph {
 }
 
 .back-button {
-    width: 40px;
-    margin-top: 10px;
-    margin-left: 10px;
+    padding: 20px;
+    font-family: "Avenir-Book";
+    color: grey;
+    font-size: .8rem;
 }
 
 #macPortrait {
@@ -374,12 +396,46 @@ p.aboutparagraph {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+}
+
+#euclideanPoster {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#middleman {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sustainabilityCenter {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lilLouis {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.next-btn {
+    float: right;
+    padding: 20px;
+    margin-bottom: 50px;
 
 }
 
+.next {
+    font-family: "Avenir-Book";
+    color: black;
+}
 
-.paragraph-margin-bottom {
-    margin-bottom: 20%;
+.next:hover {
+    color:#ffc43e;
 }
 
 /* MEDIA BREAKPOINTS */
@@ -399,7 +455,6 @@ p.aboutparagraph {
     #copyrightTag {
         display: none;
     }
-
 
 
  }
@@ -524,6 +579,40 @@ p.aboutparagraph {
    }
 
 
+   .spaceTaker {
+        width: 121px;
+        height: 100px;
+    }
+
+    /* Graphic Page */
+
+    .graphic-large {
+        width: 150px;
+        height: 150px;
+    }
+
+    .graphic-margin-large {
+        margin-left: 45px;
+    }
+
+    /* Web Page */
+
+    .web-large {
+        width: 150px;
+        height: 150px;
+    }
+
+    .web-margin-large {
+        margin-left: 45px;
+    }
+
+    /* Artwork Pages */
+
+    #macFull {
+        width: 40%;
+    }
+
+
  }
 
  /* DESKTOP */
@@ -623,9 +712,41 @@ p.aboutparagraph {
         margin-left: 45px;
     }
 
+    /* Web Page */
 
+    .web-large {
+        width: 150px;
+        height: 150px;
+    }
 
+    .web-margin-large {
+        margin-left: 45px;
+    }
 
+    /* Artwork Pages */
 
+    .paragraph-large {
+        margin-top: 100px;
+        
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .next-btn-large {
+        float: left;
+        padding-top: 120px;
+    
+    }
+
+    #macFull{
+        width: 60%;
+    }
+
+    #splitConscious {
+        width: 80%;
+    }
+    
 
  }
