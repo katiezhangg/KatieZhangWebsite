@@ -189,6 +189,11 @@ p.aboutparagraph {
     color: grey;
 }
 
+.slashes {
+    font-family: 'Avenir-Book';
+    color: black;
+}
+
 /* PORTFOLIO */
 
 #portfolioStudio {
@@ -628,7 +633,7 @@ p.aboutparagraph {
 
 
    .spaceTaker {
-        width: 121px;
+        width: 127px;
         height: 100px;
     }
 
@@ -656,7 +661,7 @@ p.aboutparagraph {
 
      /* Artwork Pages */
 
-     .paragraph-large {
+    .paragraph-large {
         margin-top: 100px;
         
     }
@@ -812,7 +817,7 @@ p.aboutparagraph {
     }
 
     .spaceTaker {
-        width: 121px;
+        width: 127px;
         height: 100px;
     }
 
