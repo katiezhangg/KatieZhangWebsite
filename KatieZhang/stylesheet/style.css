@@ -105,6 +105,10 @@ a.navbar-item {
     text-align: right;
 }
 
+/* ANIMATIONS */
+
+
+
 /* HOME  */
 
 body {
@@ -141,7 +145,7 @@ body {
 
 /* ABOUT PAGE */
 
-#aboutImg {
+.about-img {
     width: 80%;
 }
 
@@ -150,7 +154,39 @@ p.aboutparagraph {
     text-align: left;
     padding-left: 12%;
     padding-right: 12%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+}
+
+.contact-info {
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-bottom: 10%;
+}
+
+.email {
+    font-family: 'Avenir-Book';
+    color: black;
+}
+
+.email:hover {
+    color: grey;
+}
+
+.linkedin {
+    font-family: 'Avenir-Book';
+    color: black;
+}
+
+.linkedin:hover {
+    color: grey;
+}
+
+.resume {
+    font-family: "Avenir-Book";
+    color: black;
+}
+.resume:hover {
+    color: grey;
 }
 
 /* PORTFOLIO */
@@ -618,10 +654,77 @@ p.aboutparagraph {
         margin-left: 45px;
     }
 
-    /* Artwork Pages */
+     /* Artwork Pages */
 
-    #macFull {
-        width: 40%;
+     .paragraph-large {
+        margin-top: 100px;
+        
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .next-btn-large {
+        float: left;
+        padding-top: 120px;
+    
+    }
+
+    .next-large {
+        font-size: 1rem;
+    }
+
+    #macFull{
+        width: 65%;
+    }
+
+    #splitConscious {
+        width: 80%;
+    }
+
+    #blueFace {
+        width: 70%;
+    }
+    
+    #lowBattery {
+        width: 60%;
+    }
+
+    #earl {
+        width: 60%;
+    }
+
+    #euclideanPoster {
+        width: 60%;
+    }
+
+    #middleman {
+        width: 80%;
+    }
+
+    #upperLower {
+        width: 70%;
+    }
+
+    .margin-artwork-pages {
+        margin-top: 80px;
+    }
+
+
+     /* ABOUT PAGE */
+
+     .about-img {
+        width: 80%;
+    }
+
+    .contact-info {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    p.aboutparagraph {
+        padding-left: 0;
     }
 
 
@@ -791,5 +894,21 @@ p.aboutparagraph {
     .margin-artwork-pages {
         margin-top: 80px;
     }
+
+    /* ABOUT PAGE */
+
+    .about-img {
+        width: 70%;
+    }
+
+    p.aboutparagraph {
+        padding-left: 0;
+    }
+
+    .contact-info {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 
  }
