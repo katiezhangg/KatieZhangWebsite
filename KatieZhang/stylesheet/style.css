@@ -740,12 +740,12 @@ p.aboutparagraph {
 @media (min-width: 1200px) { 
 
     #homeImg {
-        width: 30%;
+        width: 50%;
     }
 
     #imgSection {
-        margin-left: 75px;
-        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-top: 10px;
     }
 
     .text-align {
