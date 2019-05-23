@@ -79,6 +79,7 @@ h4 {
     src: url(../fonts/AvenirRoman.otf);
 }
 
+
 /* NAVBAR STUFF */
 
 a.navbar-item {
@@ -94,6 +95,7 @@ a.navbar-item {
 .nav-desktop {
     color: black;
     font-family: 'Avenir-Book';
+    font-size: .9rem;
 
 }
 
@@ -115,13 +117,18 @@ body {
     background-color: #F0FFEC; 
 }
 
+.logo-home {
+    width: 50px;
+    margin-top: 20px;
+}
+
 #imgSection {
     display: inline-block;
+   
 }
 
 #lowBattery {
     font-size: 15px;
-    vertical-align: middle;
     font-family: "Avenir-Book";
 }
 
@@ -554,7 +561,7 @@ p.aboutparagraph {
     /* Home Page */
 
     #homeImg {
-        width: 30%;
+        width: 45%;
     }
 
     #imgSection {
@@ -580,9 +587,14 @@ p.aboutparagraph {
         margin-top: 40px;
     }
 
+    #navDesktopHome {
+        margin-top: 10px;
+    }
+
     .navbar-lg {
         display: inline-block;
         padding-right: 50px;
+        margin-left: 40px;
     }
 
     .align-right {
@@ -740,7 +752,7 @@ p.aboutparagraph {
 @media (min-width: 1200px) { 
 
     #homeImg {
-        width: 50%;
+        width:45%;
     }
 
     #imgSection {
@@ -766,9 +778,14 @@ p.aboutparagraph {
         margin-top: 40px;
     }
 
+    #navDesktopHome {
+        margin-top: 10px;
+    }
+
     .navbar-lg {
         display: inline-block;
         padding-right: 50px;
+        margin-left: 40px;
     }
 
     .align-right {
