@@ -412,6 +412,7 @@ p.aboutparagraph {
     font-family: 'EB Garamond';
     text-align: center;
     font-size: 25px;
+    margin-top: 25px;
 }
 
 #macFull {
@@ -516,6 +517,10 @@ p.aboutparagraph {
         display: none;
     }
 
+    .next-btn-large {
+        display: none;
+    }
+
 
  }
 
@@ -530,6 +535,10 @@ p.aboutparagraph {
     }
 
     #copyrightTag {
+        display: none;
+    }
+
+    .next-btn-large {
         display: none;
     }
 
@@ -593,7 +602,7 @@ p.aboutparagraph {
 
     .navbar-lg {
         display: inline-block;
-        padding-right: 50px;
+        padding-right: 10px;
         margin-left: 40px;
     }
 
@@ -784,7 +793,7 @@ p.aboutparagraph {
 
     .navbar-lg {
         display: inline-block;
-        padding-right: 50px;
+        padding-right: 15px;
         margin-left: 40px;
     }
 
