@@ -389,6 +389,10 @@ p.aboutparagraph {
     margin-bottom: 20%;
 }
 
+.paragraph-text-web {
+    font-size: .9rem;
+}
+
 /* ARTWORK */
 
 .text-justify {
@@ -738,6 +742,10 @@ p.aboutparagraph {
     }
 
 
+    .margin-paragraph-large {
+        margin-top: 50px;
+    }
+
      /* ABOUT PAGE */
 
      .about-img {
@@ -887,7 +895,7 @@ p.aboutparagraph {
     }
 
     .next-large {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     #macFull{
@@ -923,6 +931,10 @@ p.aboutparagraph {
     }
 
     .margin-artwork-pages {
+        margin-top: 80px;
+    }
+
+    .margin-paragraph-large {
         margin-top: 80px;
     }
 
