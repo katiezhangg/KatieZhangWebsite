@@ -332,8 +332,7 @@ p.aboutparagraph {
 
 .bhive {
     background-image: url(../img/BHIVE-POSTER-FINAL.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .euclidean {
