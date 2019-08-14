@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 p {
     margin-bottom: 0;
 }
@@ -169,6 +175,12 @@ body {
     text-align: center;
 }
 
+#copyrightTagMobile {
+    font-family: 'EB Garamond';
+    font-size: .8rem;
+    text-align: center;
+}
+
 /* ABOUT PAGE */
 
 .about-img {
@@ -308,23 +320,23 @@ p.aboutparagraph {
 }
 
 .mac-miller {
-    background-image: url(../img/mac-miller-copy.jpg);
+    background-image: url(../img/img-small/mac-miller-copy-small.jpg);
     background-size: cover;
 }
 
 .split-conscious {
-    background-image: url(../img/split-conscious-copy.jpg);
+    background-image: url(../img/img-small/split-conscious-copy-small.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .blueface-newface {
-    background-image: url(../img/blueface-newface-top-copy.jpg);
+    background-image: url(../img/img-small/blueface-newface-copy-small.jpg);
     background-size: cover;
 }
 
 .low-battery {
-    background-image: url(../img/low-battery-copy.jpg);
+    background-image: url(../img/img-small/low-battery-copy-small.jpg);
     background-size: cover;
 }
 
@@ -335,7 +347,12 @@ p.aboutparagraph {
 }
 
 .mac-portrait {
-    background-image: url(../img/mac-portrait.JPG);
+    background-image: url(../img/img-small/mac-portrait-small.JPG);
+    background-size: cover;
+}
+
+.mac-woodburn {
+    background-image: url(../img/img-small/mac-woodburn-small.jpg);
     background-size: cover;
 }
 
@@ -354,12 +371,12 @@ p.aboutparagraph {
 }
 
 .bhive {
-    background-image: url(../img/BHIVE-POSTER-FINAL.jpg);
+    background-image: url(../img/img-small/BHIVE-POSTER-FINAL-small.jpg);
     background-size: cover;
 }
 
 .euclidean {
-    background-image: url(../img/euclidean-poster.png);
+    background-image: url(../img/img-small/euclidean-poster-small.png);
     background-size: cover;
 }
 
@@ -375,7 +392,7 @@ p.aboutparagraph {
 }
 
 .upper-lower {
-    background-image: url(../img/u&lc-cover-smaller.png);
+    background-image: url(../img/img-small/u&lc-cover-smaller-small.png);
     background-size: cover;
 }
 
@@ -406,7 +423,7 @@ p.aboutparagraph {
 }
 
 .earthquake {
-    background-image: url(../img/earthquake-preview.png);
+    background-image: url(../img/earthquake-preview-small.png);
     background-size: cover;
     margin-bottom: 20%;
 }
@@ -587,6 +604,14 @@ p.aboutparagraph {
         display: none;
     }
 
+    #copyrightTag {
+        display: none;
+    }
+
+    #navDesktopHome {
+        display: none;
+    }
+
  }
 
 /* LAPTOP */
@@ -610,6 +635,10 @@ p.aboutparagraph {
 
     h4#lowBattery {
         display:none;
+    }
+
+    #copyrightTagMobile {
+        display: none;
     }
 
     /* NAVBAR */
@@ -680,7 +709,7 @@ p.aboutparagraph {
 
 
    .spaceTaker {
-        width: 127px;
+        width: 142px;
         height: 100px;
     }
 
@@ -807,6 +836,10 @@ p.aboutparagraph {
         display:none;
     }
 
+    #copyrightTagMobile {
+        display: none;
+    }
+
     /* NAVBAR */
 
     .navbar-sm-md {
@@ -873,7 +906,7 @@ p.aboutparagraph {
     }
 
     .spaceTaker {
-        width: 127px;
+        width: 142px;
         height: 100px;
     }
 
