@@ -526,6 +526,16 @@ p.aboutparagraph {
     margin-left: auto; 
 }
 
+#macWoodburn {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+.carousel-mac-woodburn {
+    width: 80%;
+}
+
 .next-btn {
     float: right;
     padding: 20px;
