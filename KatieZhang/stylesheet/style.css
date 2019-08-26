@@ -423,7 +423,7 @@ p.aboutparagraph {
 }
 
 .earthquake {
-    background-image: url(../img/earthquake-preview-small.png);
+    background-image: url(../img/img-small/earthquake-preview-small.png);
     background-size: cover;
     margin-bottom: 20%;
 }
