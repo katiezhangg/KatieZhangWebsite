@@ -360,21 +360,20 @@ p.aboutparagraph {
     background-size: cover;
 }
 
-.gat-Damn-preview {
+.gat-Damn{
     background-image: url(../img/img-small/gat-Damn-small.jpg);
     background-size: cover;
 }
 
-.bloated-preview {
+.bloated{
     background-image: url(../img/img-small/bloated-small.jpg);
     background-size: cover;
 }
 
-.its-fine-preview {
+.its-fine {
     background-image: url(../img/img-small/its-fine-small.jpg);
     background-size: cover;
 }
-
 
 
 .artwork-title-large {
@@ -413,7 +412,7 @@ p.aboutparagraph {
 }
 
 .upper-lower {
-    background-image: url(../img/img-small/u&lc-cover-smaller-small.png);
+    background-image: url(../img/img-small/u&lc-cover-small.png);
     background-size: cover;
 }
 
@@ -548,11 +547,32 @@ p.aboutparagraph {
 }
 
 #macWoodburn {
-    width: 100%;
+    width: 80%;
     margin-right: auto;
     margin-left: auto; 
 
 }
+
+#itsFine {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+
+#gatDamn {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+
+#bloated {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .carousel-mac-woodburn {
     width: 80%;
 }
@@ -723,9 +743,7 @@ p.aboutparagraph {
        margin-left: 45px;
    }
 
-   .mt-large {
-       margin-top: 25px;
-   }
+
 
    /* Studio Page */
 
