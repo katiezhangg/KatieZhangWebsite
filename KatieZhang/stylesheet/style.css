@@ -38,6 +38,10 @@ h1 {
     text-align: center;
 }
 
+.bottom-margin {
+    margin-bottom: 20%;
+}
+
 /*h4 {
     text-align: center;
 } */
@@ -320,28 +324,28 @@ p.aboutparagraph {
 }
 
 .mac-miller {
-    background-image: url(../img/img-small/mac-miller-copy-small.jpg);
+    background-image: url(../img/img-small/mac-miller-small.jpg);
     background-size: cover;
 }
 
 .split-conscious {
-    background-image: url(../img/img-small/split-conscious-copy-small.jpg);
+    background-image: url(../img/img-small/split-conscious-small.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .blueface-newface {
-    background-image: url(../img/img-small/blueface-newface-copy-small.jpg);
+    background-image: url(../img/img-small/blueface-newface-small.jpg);
     background-size: cover;
 }
 
 .low-battery {
-    background-image: url(../img/img-small/low-battery-copy-small.jpg);
+    background-image: url(../img/img-small/low-battery-small.jpg);
     background-size: cover;
 }
 
 .earl {
-    background-image: url(../img/earl-copy.jpg);
+    background-image: url(../img/earl.jpg);
     background-size: cover;
     margin-bottom: 20%;
 }
@@ -355,6 +359,23 @@ p.aboutparagraph {
     background-image: url(../img/img-small/mac-woodburn-small.jpg);
     background-size: cover;
 }
+
+.gat-Damn-preview {
+    background-image: url(../img/img-small/gat-Damn-small.jpg);
+    background-size: cover;
+}
+
+.bloated-preview {
+    background-image: url(../img/img-small/bloated-small.jpg);
+    background-size: cover;
+}
+
+.its-fine-preview {
+    background-image: url(../img/img-small/its-fine-small.jpg);
+    background-size: cover;
+}
+
+
 
 .artwork-title-large {
     font-family: "Avenir-Black";
