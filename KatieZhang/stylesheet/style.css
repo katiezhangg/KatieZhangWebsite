@@ -307,6 +307,7 @@ p.aboutparagraph {
 
 .paragraph-text {
     font-family: "Avenir-Book";
+    font-size: .9rem;
 }
 
 .paragraph-margin-bottom {
@@ -377,7 +378,7 @@ p.aboutparagraph {
 
 
 .artwork-title-large {
-    font-family: "Avenir-Black";
+    font-family: "Avenir-Roman";
 }
 
 /* GRAPHIC */
@@ -448,9 +449,6 @@ p.aboutparagraph {
     margin-bottom: 20%;
 }
 
-.paragraph-text-web {
-    font-size: .9rem;
-}
 
 /* ARTWORK */
 
@@ -577,21 +575,11 @@ p.aboutparagraph {
     width: 80%;
 }
 
-.next-btn {
-    float: right;
-    padding: 20px;
-    margin-bottom: 50px;
+.next-arrow {
+    width: 50%;
 
 }
 
-.next {
-    font-family: "Avenir-Book";
-    color: black;
-}
-
-.next:hover {
-    color:#ffc43e;
-}
 
 /* MEDIA BREAKPOINTS */
 
@@ -615,6 +603,19 @@ p.aboutparagraph {
         display: none;
     }
 
+    /* ARTWORK PAGES */
+
+    #itsFine {
+        width: 90%;
+    }
+
+    #gatDamn {
+        width: 90%;
+    }
+
+   #macWoodburn {
+       width: 90%;
+   }
 
  }
 
@@ -635,7 +636,6 @@ p.aboutparagraph {
     .next-btn-large {
         display: none;
     }
-
 
  }
  
@@ -788,6 +788,7 @@ p.aboutparagraph {
 
     .paragraph-large {
         margin-top: 100px;
+        font-family: "Avenir-Book";
         
     }
 
@@ -804,7 +805,6 @@ p.aboutparagraph {
     .next-large {
         font-size: 1rem;
     }
-
     #macFull{
         width: 65%;
     }
