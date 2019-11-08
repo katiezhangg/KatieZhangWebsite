@@ -576,6 +576,11 @@ p.aboutparagraph {
 }
 
 .next-arrow {
+    width: 45%;
+
+}
+
+a.img.next-arrow:hover {
     width: 50%;
 
 }
