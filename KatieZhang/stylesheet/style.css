@@ -422,6 +422,43 @@ p.aboutparagraph {
     background-size: cover;
 }
 
+#sustainabilityCenter {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#bHive {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#upperLower {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#lucidJourney {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#euclideanPoster {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#middleman {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 
 /*  WEB  */
 
@@ -456,11 +493,23 @@ p.aboutparagraph {
     text-align: justify;
 }
 
+.margin-mobile {
+    margin-top: 50px;
+}
+
 .back-button {
     padding: 20px;
     font-family: "Avenir-Book";
     color: grey;
     font-size: .8rem;
+}
+
+.back-mobile {
+    padding-left: 20px;
+    margin-top: 20px;
+    font-family: "Avenir-Book";
+    color: grey;
+    font-size: 1.2rem;
 }
 
 #macPortrait {
@@ -508,58 +557,23 @@ p.aboutparagraph {
     margin-left: auto;
 }
 
-#euclideanPoster {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#middleman {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#sustainabilityCenter {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#bHive {
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#upperLower {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto; 
-}
-
-#lucidJourney {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto; 
-}
 
 #macWoodburn {
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto; 
 
 }
 
 #itsFine {
-    width: 70%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto; 
 
 }
 
 #gatDamn {
-    width: 70%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto; 
 
@@ -571,13 +585,14 @@ p.aboutparagraph {
     margin-left: auto;
 }
 
-.carousel-mac-woodburn {
-    width: 80%;
-}
-
 .next-arrow {
     width: 45%;
+}
 
+.next-arrow-mobile {
+    width: 20%;
+    float: right;
+    margin-right: 30px;
 }
 
 a.img.next-arrow:hover {
@@ -608,21 +623,12 @@ a.img.next-arrow:hover {
         display: none;
     }
 
-    /* ARTWORK PAGES */
-
-    #itsFine {
-        width: 90%;
+    .back-button {
+        display: none;
     }
-
-    #gatDamn {
-        width: 90%;
-    }
-
-   #macWoodburn {
-       width: 90%;
-   }
 
  }
+ /* ARTWORK PAGES */
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
@@ -641,6 +647,11 @@ a.img.next-arrow:hover {
     .next-btn-large {
         display: none;
     }
+
+    .back-button {
+        display: none;
+    }
+
 
  }
  
@@ -665,6 +676,10 @@ a.img.next-arrow:hover {
     }
 
     #navDesktopHome {
+        display: none;
+    }
+
+    .back-button {
         display: none;
     }
 
@@ -799,6 +814,8 @@ a.img.next-arrow:hover {
 
     .next-btn {
         display: none;
+
+     
     }
 
     .next-btn-large {
